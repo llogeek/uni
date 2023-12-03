@@ -4,8 +4,8 @@ from mysql.connector import connect, Error
 try:
     with connect(
         host="localhost",
-        user='Lolita',
-        password='Lolita23102002',
+        user=,
+        password=,
         database="users_db",
     ) as connection:
         print(connection)
